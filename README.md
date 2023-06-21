@@ -1,3 +1,7 @@
+#TikTok Clone APP
+
+Para acessar o app open [https://tiktok---jornada-17f1f.web.app](https://tiktok---jornada-17f1f.web.app)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.VideoHeader{
+    position: fixed ;
+    bottom: 86%;
+    color: white;
+    margin-left: 106px;
+    text-shadow: 0px 0px 10px #2c2c2c;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.menu{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.menu nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 18px;
+    position: relative;
+
+}
+
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-color: #ff004c;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.5s;
+    filter: drop-shadow(0px 0px 10px #2c2c2c); 
+}
+
+.menu nav a:hover::after{
+    width: 30px;
+}
+
+@media only screen and ( max-width: 440px ){
+    .videoHeader{
+        bottom: 95%;
+    }
+    .menu{
+        width: 70%; 
+    }
+  }
+  
